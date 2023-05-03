@@ -16,9 +16,9 @@
     height: 100vh;
 }
 
-/* #eye_balls {
-            animation: side-to-side 3s linear infinite;
-        } */
+#eye_balls {
+    animation: side-to-side 3s linear infinite;
+}
 
 #head {
     animation: head-bobbing 3s ease-in-out infinite;
@@ -60,15 +60,15 @@
 
 @keyframes side-to-side {
     0% {
-        transform: translateX(3%);
+        transform: translateX(0%) translateY(0%);
     }
 
     50% {
-        transform: translateX(-1%);
+        transform: translateX(4%);
     }
 
     100% {
-        transform: translateX(3%);
+        transform: translateX(0%) translateY(0%);
     }
 }
 
